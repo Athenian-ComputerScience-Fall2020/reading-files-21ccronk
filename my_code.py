@@ -1,5 +1,5 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
-#  
+#  https://www.w3schools.com/python/ref_func_round.asp
 x = 0
 
 def avg_temp():
@@ -15,6 +15,7 @@ def avg_temp():
         sum = sum + int(line_list[i])
 
     average = sum / (list_length - 1)
+    average = round(average, 2)
 
     return average
 
